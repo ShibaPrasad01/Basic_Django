@@ -12,7 +12,7 @@ def first(request):
 def link(request):
     return HttpResponse('''Click Here : <a href="https://www.youtube.com/watch?v=AepgWsROO4k&list=PLu0W_9lII9ah7DDtYtflgwMwpT3xmjXY9&index=7"> DJANGO VIDEOS </a>''')
 def temp(request):
-    var={'name':'SIBU','place':'kpda'}
+    var={'name':'SIBU','place':'kpda','date':'19th mar'}
     return render(request,'temp.html',var)
 
 
